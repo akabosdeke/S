@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".SettingActivity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/setting_profile_image"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/profile_image">
+
+    </ImageView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:drawableLeft="@drawable/edit_profile"
+        android:layout_below="@+id/setting_profile_image"
+        android:backgroundTint="@android:color/white"
+        android:layout_marginStart="15dp"
+        android:hint="Write name"
+        android:textColorHint="@android:color/white"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="20dp">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username_setting"
+        android:drawableLeft="@drawable/edit_status"
+        android:layout_below="@+id/username"
+        android:backgroundTint="@android:color/white"
+        android:layout_marginStart="15dp"
+        android:hint="Write your Bio"
+        android:textColorHint="@android:color/white"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="20dp">
+    </EditText>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bio_setting"
+        android:layout_below="@+id/username_setting"
+        android:text="Save"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="15dp"
+        android:textSize="25dp"
+        android:textStyle="italic|bold"
+        android:textColor="@android:color/holo_blue_light"
+        >
+
+    </Button>
+
+</RelativeLayout>

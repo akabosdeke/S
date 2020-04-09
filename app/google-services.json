@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "25029867952",
+    "firebase_url": "https://skyt-9049b.firebaseio.com",
+    "project_id": "skyt-9049b",
+    "storage_bucket": "skyt-9049b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25029867952:android:bd9d4b6c640bba61f8fe75",
+        "android_client_info": {
+          "package_name": "com.e.s"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25029867952-eijh062bmf3bdqhmbq1p45edlilailks.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.e.s",
+            "certificate_hash": "aaa70a8eec47187ea497c137d61b345a736f085f"
+          }
+        },
+        {
+          "client_id": "25029867952-bh3ve0n2302377cbt3fanvqgr4nq73ng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp_7XIsX-hZqofS8SlD2bMZKoFgLwLcMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25029867952-bh3ve0n2302377cbt3fanvqgr4nq73ng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
